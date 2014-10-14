@@ -2,8 +2,8 @@
 ########################################################################
 # insert_from_csv.py
 # Description: Get data from CSV files and dump to Postgresql.
-#              Table names are derived from CSV file names
-# Configuration: First load CSV files to ./output; set up db connection 
+#              (Table names are derived from CSV file names.)
+# Configuration: Load CSV files to ./output; set up db connection 
 # Usage: insert_from_csv.py
 # License: WTFPL
 # History:
@@ -22,9 +22,6 @@ db_connection = 'postgresql://postgres:secret@localhost:5432/testimport'
 def import_data(data_frame, table_name):
   sql_engine = create_engine(db_connection)
   data_frame.to_sql(table_name, sql_engine)
-  return
-
-def read_data():
   return
 
 def main():

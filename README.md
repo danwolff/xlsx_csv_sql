@@ -17,9 +17,9 @@ The example ./input data is excerpts from https://data.cityofchicago.org
 
 The example ./output data shows you can have multiple sheets per book.
 
-[1] https://github.com/dilshod/xlsx2csv
+[1] https://github.com/dilshod/xlsx2csv  https://pypi.python.org/pypi/xlsx2csv
 
-[2] http://pandas.pydata.org
+[2] https://github.com/pydata/pandas  http://pandas.pydata.org
 
-License: This software is WTFPL, though the contained xlsx2csv is GPLv2.
+License: This software is WTFPL. (xlsx2csv is GPLv2+)
 
