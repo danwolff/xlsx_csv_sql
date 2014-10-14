@@ -11,7 +11,7 @@ xls_csv_sql is a two step method for putting Excel tables into Postgres.
 
  -Python uses pandas [2] module to import CSV files to Postgres.
  
-The scripts are short and considered self documenting.
+The scripts are short and considered self documenting. Note: you may need to run insert_from_csv.py with sudo or otherwise ensure sufficient permissions.
 
 The example ./input data is excerpts from https://data.cityofchicago.org
 
