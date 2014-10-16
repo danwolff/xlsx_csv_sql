@@ -1,8 +1,9 @@
 #!/usr/bin/python
 ########################################################################
 # insert_from_csv.py
-# Description: Get data from CSV files and dump to Postgresql.
-#              (Table names are derived from CSV file names.)
+# Description: Insert data from CSV files into a SQL database.
+#              (Table names are derived from CSV file names, and
+#                attribute names are derived from the header row.)
 # Configuration: Load CSV files to ./output; set up db connection 
 # Usage: insert_from_csv.py
 # License: WTFPL

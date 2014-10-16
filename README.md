@@ -1,15 +1,15 @@
 xlsx_csv_sql
 ============
 
-xls_csv_sql is a two step method for putting Excel tables into Postgres.
+xlsx_csv_sql is a two step method to copy Excel tables into a SQL database.
 
 1. csv_from_excel.sh
 
- -Bash uses xlsx2csv [1] Python program to convert XLSX files to CSVs.
+ -Bash uses the xlsx2csv [1] Python program to convert XLSX files to CSVs.
 
 2. insert_from_csv.py
 
- -Python uses pandas [2] module & others to import CSV files to Postgres.
+ -Python uses the pandas [2] module (& others) to insert the CSV data into a SQL database.
  
 The scripts are short and considered self documenting. Note: you may need to run insert_from_csv.py with sudo or otherwise ensure sufficient permissions.
 
